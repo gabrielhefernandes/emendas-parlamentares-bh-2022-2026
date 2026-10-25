@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "Cite o repositório e a versão efetivamente consultada."
+type: dataset
+authors:
+  - family-names: Fernandes
+    given-names: Gabriel Henriques
+title: "Emendas parlamentares municipais de Belo Horizonte: bases codificadas e materiais de replicabilidade (2022–2026)"
+repository-code: "https://github.com/gabrielhefernandes/emendas-parlamentares-bh-2022-2026"
+version: "0.1.0"
