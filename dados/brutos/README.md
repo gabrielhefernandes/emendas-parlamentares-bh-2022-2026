@@ -1,3 +1,5 @@
-# Bases oficiais brutas
+# Bases brutas das emendas parlamentares de Belo Horizonte
 
-Uma pasta por ano (2022 a 2026). Arquivar cópia exata do arquivo baixado do portal oficial, registrando URL, nome original, data de extração, data de referência e SHA-256. **Não usar planilhas codificadas como substitutas das bases brutas.**
+Esta pasta reúne os arquivos originais em formato `.xlsx`, disponibilizados pela Prefeitura de Belo Horizonte para os exercícios de 2022 a 2026. Os arquivos estão preservados sem alterações.
+
+Este README poderá ser complementado pelo autor com a origem, as datas de acesso e outras informações de replicabilidade.
