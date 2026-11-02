@@ -1,3 +1,5 @@
 # Localidades
 
-Cada planilha anual deverá reunir as abas `LOCALIDADES_APRESENTACAO`, `LOCALIDADES_MESTRE` e `RELACOES`. As extrações documentadas partem das bases codificadas já existentes. Manter os identificadores longitudinais das localidades, sem recriar IDs para meras diferenças de grafia.
+Cada planilha anual reune as abas `LOCALIDADES_APRESENTACAO`, em que se faz uma apresentação das localidades e seus respectivos IDs_emendas; `LOCALIDADES_MESTRE`, em que se mostra as localidades e seus respectivos IDs_localidades e `RELACOES`, em que se mostra a relação emenda-localidade de forma individualizada.
+As bases são longitudinais, ou seja, os IDs_localidades são acumulados ao longo dos anos. Por exemplo: há uma localidade em 2022 cadastrada com ID_localidade LOC_12 e essa localidade se repete para uma emenda em 2023; nesse caso, o ID LOC_12 será atribuído. Caso a localidade seja nova, um novo ID_localidade será concedido.
+
