@@ -11,7 +11,7 @@ Repositório de transparência e replicabilidade da pesquisa de **Gabriel Henriq
 | [dados/localidades](dados/localidades/) | Planilhas anuais com as abas `LOCALIDADES_APRESENTACAO`, `LOCALIDADES_MESTRE` e `RELACOES` |
 | [dados/partidos](dados/partidos/) | Base geral de partidos, classificação ideológica e referências metodológicas |
 | [dados/eleitorais](dados/eleitorais/) | Dados de votação por seção eleitoral, locais de votação geocodificados e tabelas de correspondência |
-| [mapas](mapas/) | Mapas de emendas georreferenciáveis (GEO=1), organizados por ano (2022–2026) e vereador, com versões incluindo e excluindo as emendas de saúde |
+| [mapas](mapas/) | Mapas de emendas georreferenciáveis (GEO=1), organizados por ano (2022–2026) e vereador, com versões incluindo e excluindo as emendas de saúde. Também há mapas de votação eleitoral e a sobreposição dos mapas |
 | [referencias/manuais_orcamentarios](referencias/manuais_orcamentarios/) | Manual PPAG 2022–2025 em PDF e tabelas de referência PPAG/LOA de 2023 a 2026 em Excel |
 | [scripts/R](scripts/R/) | Estrutura destinada aos scripts de preparação, codificação, localidades, georreferenciamento, mapas e análises; os scripts executáveis ainda serão incorporados |
 
