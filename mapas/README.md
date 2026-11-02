@@ -1,3 +1,3 @@
 # Representações cartográficas
 
-Separar mapas das emendas georreferenciáveis e cartografias eleitorais. Identificar sempre versão da base, fonte das geometrias, sistema de referência, variável representada, recorte de saúde e script de reprodução.
+Mapas para cada vereador e ano da coordenadas de emendas passíveis de georreferenciação, além de mapas de sua geografia eleitoral.
