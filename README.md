@@ -14,9 +14,7 @@ Repositório de transparência e replicabilidade da pesquisa de **Gabriel Henriq
 | [mapas/emendas](mapas/emendas/) | Cartografia GEO=1, com saúde e sem saúde |
 | [mapas/eleitorais](mapas/eleitorais/) | Cartografia por eleição e candidato |
 | [referencias/manuais_orcamentarios](referencias/manuais_orcamentarios/) | Tabelas e manuais PPAG/LOA |
-| [documentacao/metodologia](documentacao/metodologia/) | Codebook CAP e decisões próprias de codificação |
 | [scripts/R](scripts/R/) | Preparação, codificação, georreferenciamento, mapas e análises |
-| [auditorias](auditorias/) | Relatórios de qualidade, controle e integridade |
 
 ## Replicabilidade
 
@@ -26,6 +24,3 @@ Repositório de transparência e replicabilidade da pesquisa de **Gabriel Henriq
 4. Associar emendas e localidades pelos identificadores, observando que a presença de endereço cadastral ou sede única **não basta** para GEO=1.
 5. Distinguir coordenadas confirmadas de proxies espaciais e documentar os scripts R utilizados.
 
-**Situação da publicação:** alguns diretórios podem conter apenas documentação de preparação. Não considerar arquivos preparados localmente como publicados no GitHub antes de sua presença efetiva no repositório. Bases oficiais brutas e scripts R completos ainda serão acrescentados.
-
-Consulte [CHANGELOG.md](CHANGELOG.md), [LICENCIAMENTO.md](LICENCIAMENTO.md), [CITATION.cff](CITATION.cff) e os READMEs de cada área.
