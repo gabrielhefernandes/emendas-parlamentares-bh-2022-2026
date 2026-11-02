@@ -11,7 +11,7 @@ Repositório de transparência e replicabilidade da pesquisa de **Gabriel Henriq
 | [dados/localidades](dados/localidades/) | Relações, localidades de apresentação e localidades mestre |
 | [dados/partidos](dados/partidos/) | Base partidária geral, ideologia e referências |
 | [dados/eleitorais](dados/eleitorais/) | Dados de votos por seção eleitoral |
-| [mapas/emendas](mapas/emendas/) | Cartografia GEO=1, com saúde e sem saúde |
+| [mapas](mapas/) | Cartografia GEO=1, com saúde e sem saúde |
 | [mapas/eleitorais](mapas/eleitorais/) | Cartografia por eleição e candidato |
 | [referencias/manuais_orcamentarios](referencias/manuais_orcamentarios/) | Tabelas e manuais PPAG/LOA |
 | [scripts/R](scripts/R/) | Preparação, codificação, georreferenciamento, mapas e análises |
