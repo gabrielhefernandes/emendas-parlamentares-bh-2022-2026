@@ -1,0 +1,24 @@
+operacao,destino,origem,motivo
+inclusao,scripts/R/07_analises/08_modelos_territoriais_CR2.R,/mnt/data/_rar_extract/CR2/REPRODUZIR_INFERENCIA_CR2_TCC_BH.R,script R para Tabelas 7 e 8
+inclusao,scripts/R/07_analises/09_interacao_saude_CR2.R,/mnt/data/_rar_extract/INTERACAO_CR2/02_reproduzir_interacao_CR2_no_R.R,teste formal CR2 de interacao em saude
+inclusao,dados/analiticos/referencias_cr2/01_TRES_RAIOS_CR2_SATTERTHWAITE.csv,/mnt/data/_rar_extract/CR2/01_TRES_RAIOS_CR2_SATTERTHWAITE.csv,tabelas de referencia numerica de inferencia CR2
+inclusao,dados/analiticos/referencias_cr2/02_ROBUSTEZ_2KM_CR2_SATTERTHWAITE.csv,/mnt/data/_rar_extract/CR2/02_ROBUSTEZ_2KM_CR2_SATTERTHWAITE.csv,tabelas de referencia numerica de inferencia CR2
+inclusao,dados/analiticos/referencias_cr2/01_RESULTADOS_INTERACAO_SAUDE_CR2.csv,/mnt/data/_rar_extract/INTERACAO_CR2/01_RESULTADOS_INTERACAO_SAUDE_CR2.csv,referencia numerica CR2 interacao
+inclusao,documentacao/validacoes_historicas/verificacao_cr2_comparacao.csv,/mnt/data/_rar_extract/CR2/verificacao_cr2_comparacao.csv,confronto historico R x Python (nao reexecutado nesta etapa)
+inclusao,documentacao/validacoes_historicas/03_VERIFICACAO_INTERACAO_R_VS_PYTHON.csv,/mnt/data/_rar_extract/INTERACAO_CR2/03_VERIFICACAO_INTERACAO_R_VS_PYTHON.csv,confronto historico R x Python para interacao
+inclusao,documentacao/validacoes_historicas/03_RELATORIO_TESTE_INTERACAO.md,/mnt/data/_rar_extract/INTERACAO_CR2/03_RELATORIO_TESTE_INTERACAO.md,relatorio original do teste de interacao
+inclusao,dados/geoespaciais/PAINEL_EMENDA_LOCALIDADE_CANONICO_2022_2026.csv,/mnt/data/_rar_extract/PACOTE_ANALITICO_ESPACIAL_FINAL_2022_2026/dados_analiticos/PAINEL_EMENDA_LOCALIDADE_CANONICO_2022_2026.csv,painel 2357 pares usado nos mapas
+inclusao,dados/geoespaciais/LOCALIDADES_GEO_MESTRE_CANONICA_2022_2026.csv,/mnt/data/_rar_extract/PACOTE_ANALITICO_ESPACIAL_FINAL_2022_2026/dados_geoespaciais/LOCALIDADES_GEO_MESTRE_CANONICA_2022_2026.csv,metadados de 967 localidades canonicas
+inclusao,dados/geoespaciais/MAPA_HISTORICO_CANONICO_LOCALIDADES_2022_2026.csv,/mnt/data/_rar_extract/PACOTE_ANALITICO_ESPACIAL_FINAL_2022_2026/dados_geoespaciais/MAPA_HISTORICO_CANONICO_LOCALIDADES_2022_2026.csv,trilha de IDs territoriais e reconciliacoes
+inclusao,documentacao/validacoes_historicas/PASSO_79_MANIFESTO_PACOTE_FINAL.csv,/mnt/data/_rar_extract/PACOTE_ANALITICO_ESPACIAL_FINAL_2022_2026/auditorias_manifestos/PASSO_79_MANIFESTO_PACOTE_FINAL.csv,manifesto historico de congelamento espacial
+inclusao,documentacao/validacoes_historicas/PASSO_79_FINGERPRINT_PACOTE_FINAL.txt,/mnt/data/_rar_extract/PACOTE_ANALITICO_ESPACIAL_FINAL_2022_2026/auditorias_manifestos/PASSO_79_FINGERPRINT_PACOTE_FINAL.txt,fingerprint historico do pacote espacial
+inclusao,dados/geoespaciais/malhas_pbh/20220601_regional.csv,/mnt/data/_rar_extract/pbh_oficial/20220601_regional.csv,limites de regionais PBH EPSG 31983
+inclusao,dados/geoespaciais/malhas_pbh/20240416_limite_municipio.csv,/mnt/data/_rar_extract/pbh_oficial/20240416_limite_municipio.csv,limite municipal PBH EPSG 31983
+inclusao,dados/eleitorais/universo_vereadores_emendas_partidos_2022_2026_v1.csv,/mnt/data/universo_vereadores_emendas_partidos_2022_2026_v1(1).csv,"correspondencia 207 vereador-anos, arquivo sem modificacao de bytes"
+adaptacao,scripts/R/executar_analises_tcc.R,copia_portatil_versao_anterior,corrige referencia indefinida a preparacao no launcher anual
+adaptacao,scripts/R/07_analises/08_modelos_territoriais_CR2.R,copia_portatil_versao_anterior,"enderecos relativos, pasta de resultados, sete robustezes ativadas, falha explicita em comparacao divergente"
+adaptacao,scripts/R/07_analises/09_interacao_saude_CR2.R,copia_portatil_versao_anterior,caminhos explicitos e saida independente para teste formal de interacao
+inclusao,scripts/R/executar_territorial_tcc.R,gerado,orquestracao independente das regresoes territoriais
+renomeacao,scripts/R/06_mapas_eleitorais/01_mapas_eleitorais_emendas.R,21_gerar_mapas_eleitorais_emendas_sobrepostos_BH_v2_2.R,retirada do nome historico versionado; mesmas formulas cartograficas
+renomeacao,scripts/R/07_analises/08_modelos_territoriais_CR2.R,REPRODUZIR_INFERENCIA_CR2_TCC_BH.R,nome estavel de reproducao dos modelos territoriais
+renomeacao,scripts/R/07_analises/09_interacao_saude_CR2.R,02_reproduzir_interacao_CR2_no_R.R,nome estavel do teste formal de interacao
